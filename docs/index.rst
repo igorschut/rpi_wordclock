@@ -15,6 +15,7 @@ This is the documentation for rpi_wordclock
     doc_software_setup
     doc_further_reading
     doc_troubleshooting
+    doc_systemd
 
 .. _further_doc:
 Further documentation
@@ -37,4 +38,3 @@ Acknowledgements
 * Christian (idea and first efforts for realization)
 * Daniel and Markus (technical support and hints to make the project advance)
 * Jeremy (providing the great `rpi_ws281x-library <https://github.com/jgarff/rpi_ws281x>`_)
-
