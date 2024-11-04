@@ -3,8 +3,8 @@ Description=Wordclock
 After=network.target
 
 [Service]
-ExecStart=/home/rpi_wordclock/venv/bin/python3 /home/rpi_wordclock/wordclock.py
-WorkingDirectory=/home/rpi_wordclock/
+ExecStart=/home/admin/rpi_wordclock/venv/bin/python3 /home/admin/rpi_wordclock/wordclock.py
+WorkingDirectory=/home/admin/rpi_wordclock/
 Restart=always
 RestartSec=5
 KillSignal=SIGTERM
